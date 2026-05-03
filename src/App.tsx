@@ -148,7 +148,7 @@ function App() {
             <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
               <div className="text-3xl mb-4">🔤</div>
               <h3 className="font-bold text-lg mb-3">Plaquinha ilegível</h3>
-              <p className="text-text-muted">Plaquinhas gravadas desbotam e ficam impossíveis de ler.</>
+              <p className="text-text-muted">Plaquinhas gravadas desbotam e ficam impossíveis de ler.</p>
             </div>
             
             <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
@@ -221,4 +221,5 @@ function App() {
 }
 
 export default App
+
 

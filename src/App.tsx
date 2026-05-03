@@ -63,7 +63,7 @@ function App() {
               
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
                 <a 
-                  href="https://buy.stripe.com/test_00g极e4aFz2TQ2es144" 
+                  href="https://buy.stripe.com/test_00ge4aFz2TQ2es144" 
                   className="bg-secondary hover:bg-amber-600 text-white font-bold py-4 px-8 rounded-full text-center text-lg transition-colors shadow-cta animate-pulse-slow"
                 >
                   Proteger meu pet agora →
@@ -148,7 +148,7 @@ function App() {
             <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
               <div className="text-3xl mb-4">🔤</div>
               <h3 className="font-bold text-lg mb-3">Plaquinha ilegível</h3>
-              <p className="text-text-muted">Plaquinhas gravadas desbotam e ficam impossíveis de ler.</极>
+              <p className="text-text-muted">Plaquinhas gravadas desbotam e ficam impossíveis de ler.</>
             </div>
             
             <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
@@ -221,3 +221,4 @@ function App() {
 }
 
 export default App
+

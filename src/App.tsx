@@ -8,7 +8,7 @@ function App() {
       <nav className="fixed w-full z-50 bg-white border-b border-border py-4">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center mr-2">
+            <div className="w-8-8 bg-primary rounded-full flex items-center justify-center mr-2">
               <Heart className="w-4 h-4 text-white" />
             </div>
             <span className="font-extrabold text-2xl text-text-primary">PawTrace</span>
@@ -28,9 +28,9 @@ function App() {
       <section className="pt-32 pb-20 bg-gradient-to-br from-[#0a4f5c] via-primary to-[#13a4b8] relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col lg:flex-row items-center">
-            <div className="lg:w-1/2 mb-12 lg:mb-0">
+            <div className="lg:w-1/2 mb-12 lgmb-0">
               <div className="bg-white/10 backdrop-blur-sm inline-flex items-center px-4 py-1.5 rounded-full mb-6">
-                <Shield className="w-4 extreme-4 text-white mr-2" />
+                <Shield className="w-4 h-4 text-white mr-2" />
                 <span className="text-white text-sm font-semibold">PROTEÇÃO 24H PARA SEU PET</span>
               </div>
               
@@ -63,13 +63,13 @@ function App() {
               
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
                 <a 
-                  href="https://buy.stripe.com/test_00ge4aFz2TQ2es144" 
+                  href="https://buy.stripe.com/test_00g3e4aFz2TQ2es144" 
                   className="bg-secondary hover:bg-amber-600 text-white font-bold py-4 px-8 rounded-full text-center text-lg transition-colors shadow-cta animate-pulse-slow"
                 >
                   Proteger meu pet agora →
                 </a>
                 <a 
-                  href="https://wa.me/+447428480059?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20PawTrace" 
+                  href="httpswa.me/+447428480059?text=Ol%C3%A1!%20ero%20saber%20mais%20sobre%20o%20PawTrace" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-whatsapp hover:bg-green-600 text-white font-semibold py-3.5 px-7 rounded-full text-center text-base transition-colors"
@@ -90,7 +90,7 @@ function App() {
                   <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <Heart className="w-12 h-12 text-primary" />
                   </div>
-                  <p className="text-white font-semibold">QR Code PawTrace</p>
+                  <p className="text-white font-semib">QR Code PawTrace</p>
                   <p className="text-white/70 text-sm">Scan me to contact owner</p>
                 </div>
               </div>
@@ -160,6 +160,136 @@ function App() {
         </div>
       </section>
 
+      {/* Solution Section */}
+      <section className="py-20 bg-background-alt">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="lg:w-1/2">
+              <div className="bg-white/20 backdrop-blur-sm rounded-3xl p-8 aspect-square flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-24 h-24 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <Smartphone className="w-12 h-12 text-white" />
+                  </div>
+                  <p className="text-text-primary font-semibold">Escaneie o QR Code</p>
+                  <p className="text-text-muted text-sm">Qualquer celular funciona</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="lg:w-1/2">
+              <div className="text-primary font-semibold mb-3">Como o PawTrace resolve</div>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-text-primary mb-6">
+                Seu pet usa a plaquinha.
+                <br />
+                Quem encontra, escaneia.
+                <br />
+                Você recebe no WhatsApp.
+              </h2>
+              
+              <p className="text-text-muted mb-6">
+                É só isso. Nada de app, nada de bateria, nada de cadastro complicado para quem achar seu pet.
+                A tecnologia que protege seu melhor amigo cabe num QR Code.
+              </p>
+              
+              <p className="text-text-muted text-sm flex items-start mb-8">
+                <Lock className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" />
+                Seu número de telefone nunca fica visível. Quem encontrar seu pet entra em contato pelo WhatsApp — você nunca fica exposto.
+              </p>
+              
+              <button className="bg-secondary hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-full transition-colors">
+                Ver como funciona →
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Section */}
+      <section className="py-20" id="como-funciona">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <div className="text-primary font-semibold mb-3">Em 3 passos simples</div>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-text-primary">Proteja seu pet hoje mesmo</h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div className="bg-white p-8 rounded-card border border-border shadow-soft relative">
+              <div className="absolute -top-4 -left-4 w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-white font-bold">1</div>
+              <div className="text-3xl mb-4">🐾</div>
+              <h3 className="font-bold text-lg mb-3">Cadastre seu pet</h3>
+              <p className="text-text-muted">Preencha nome, foto e seu WhatsApp. Leva menos de 2 minutos. Sem app para baixar.</p>
+            </div>
+            
+            <div className="bg-white p-8 rounded-card border border-border shadow-soft relative">
+              <div className="absolute -top-4 -left-4 w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-white font-bold">2</div>
+              <div className="text-3xl mb-4">📧</div>
+              <h3 className="font-bold text-lg mb-3">Receba seu QR em 60 segundos</h3>
+              <p className="text-text-muted">Seu código chega por email imediatamente após a compra. Imprima em casa ou numa gráfica próxima.</p>
+            </div>
+            
+            <div className="bg-white p-8 rounded-card border border-border shadow-soft relative">
+              <div className="absolute -top-4 -left-4 w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-white font-bold">3</div>
+              <div className="text-3xl mb-4">🔔</div>
+              <h3 className="font-bold text-lg mb-3">Fique tranquilo</h3>
+              <p className="text-text-muted">Cole na coleira. Se seu pet escapar e alguém escanear, você recebe no WhatsApp na hora.</p>
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <a 
+              href="https://buy.stripe.com/test_00g3e4aFz2TQ2es144" 
+              className="bg-secondary hover:bg-amber-600 text-white font-bold py-4 px-8 rounded-full text-center text-lg inline-block transition-colors shadow-cta animate-pulse-slow"
+            >
+              Proteger meu pet agora →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="py-20 bg-background-alt">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <div className="text-primary font-semib mb-3">Por que o PawTrace funciona</div>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-text-primary">Simples como precisa ser.</h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Battery className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-bold text-lg mb-3">Sem bateria</h3>
+              <p className="text-text-muted">O QR Code nunca descarrega. Funciona para sempre, chuva ou sol.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-autob-4">
+                <Smartphone className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-bold text-lg mb-3">Sem aplicativo</h3>
+              <p className="text-text-muted">Ninguém precisa baixar nada. A câmera do celular já lê.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Phone className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-bold text-lg mb-3">Qualquer celular</h3>
+              <p className="text-text-muted">Android, iPhone, qualquer câmera com internet.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-card border border-border shadow-soft text-center">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <MessageCircle className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-bold text-lg mb-3">WhatsApp direto</h3>
+              <p className="text-text-muted">Quem encontrar abre o WhatsApp com sua mensagem pré-preenchida.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA Section */}
       <section className="py-20 bg-gradient-to-br from-[#0a4f5c] via-primary to-[#13a4b8]">
         <div className="container mx-auto px-4 max-w-3xl text-center">
@@ -176,12 +306,12 @@ function App() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a 
               href="https://buy.stripe.com/test_00g3e4aFz2TQ2es144" 
-              className="bg-secondary hover:bg-amber-600 text-white font-bold py-4 px-8 rounded-full text-center transition-colors shadow-cta animate-pulse-slow"
+              className="bg-secondary hover:bg-amber-600 text-white font-boldy-4 px-8 rounded-full text-center transition-colors shadow-cta animate-pulse-slow"
             >
               Proteger meu pet agora →
             </a>
             <a 
-              href="https://wa.me/+447428480059?text=Ol%C3%A1!%20Quero%20proteger%20meu%20pet%20com%20o%20PawTrace" 
+              href="https://wa.me/+447428480059?text=Ol%C3%A1!%20Quero%20proteger%20meu%20pet%20com%20o%20Trace" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-whatsapp hover:bg-green-600 text-white font-semibold py-3.5 px-7 rounded-full text-center transition-colors"
@@ -190,7 +320,7 @@ function App() {
             </a>
           </div>
           
-          <div className="flex flex-wrap justify-center gap-4 text-white/80 text-sm">
+          <div className="flex flex-wrap justify-center gap-4ext-white/80 text-sm">
             <span>🔒 Pagamento seguro</span>
             <span>💧 QR resistente</span>
             <span>🛡️ 7 dias de garantia</span>
@@ -221,5 +351,4 @@ function App() {
 }
 
 export default App
-
 
